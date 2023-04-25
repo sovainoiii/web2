@@ -1,0 +1,12 @@
+﻿@using Minh
+@model Product
+<div class="card my-4" style="width: 20rem">
+    <div class="card-header text-info">
+        @Model.Name
+    </div>
+    <div class="card-body">
+        <p>@Model.Description</p>
+        <p>Giá: @(Model.Price)đ</p>
+        <a href="#" class="btn btn-sm btn-success">Đặt hàng</a>
+    </div>
+</div>

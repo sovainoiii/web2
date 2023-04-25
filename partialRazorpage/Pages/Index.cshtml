@@ -1,0 +1,48 @@
+﻿@page
+@using Minh
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    ViewData["title"] = "Sản phẩm mới";
+    ViewData["content"] = "Bạn đang xem các sản phẩm mới";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+@await Component.InvokeAsync("ProductBox", false)
+@await Html.PartialAsync("_Message")
+@{
+    var product1 = new Product() { Name = "Sản phẩm 1", Description = "Thông tin sản phẩm 1", Price = 10000 };
+    var product2 = new Product() { Name = "Sản phẩm 2", Description = "Thông tin sản phẩm 2", Price = 15000 };
+    var product3 = new Product() { Name = "Sản phẩm 3", Description = "Thông tin sản phẩm 3", Price = 20000 };
+}
+<div class="row bg-info">
+    <div class="col">
+        <partial name="_ProductItem" model="product1"/>
+    </div>
+    <div class="col">
+        @await Html.PartialAsync("_ProductItem", product2)
+    </div>
+    <div class="col">
+        @{
+            await Html.RenderPartialAsync("_ProductItem", product3);
+        }
+    </div>
+</div>
+<div class="row bg-success">
+@{
+    var products = new List<Product>()
+    {
+        new Product() { Name = "SP1", Description = "Thông tin SP1", Price = 10000 },
+        new Product() { Name = "SP2", Description = "Thông tin SP2", Price = 15000 },
+        new Product() { Name = "SP3", Description = "Thông tin SP3", Price = 20000 },
+        new Product() { Name = "SP4", Description = "Thông tin SP4", Price = 25000 }
+    };
+    foreach(Product product in products)
+    {
+        <div class="col">
+            <partial name="_ProductItem" model="product" />
+        </div>
+    }
+}
+</div>

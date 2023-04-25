@@ -1,0 +1,10 @@
+﻿@using Minh
+@model List<Product>
+<div class="list-group">
+    @foreach (Product product in Model)
+    {
+        <li class="list-group-item">
+            @product.Name <strong>@product.Price</strong>
+        </li>
+    }
+</div>

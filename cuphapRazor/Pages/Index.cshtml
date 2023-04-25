@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    var xinchao = "<div class='alert alert-success'>Xin chào</div>";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Home</h1>
+</div>
+<ul>
+    <li>@(3 + 4)</li>
+    <li>PI = @Math.PI</li>
+    <li>@("<h1>Home</h1>")</li>
+    <li>@xinchao</li>
+    @Html.Raw(xinchao)
+</ul>
+@{
+    string[] cacsp = new string[] { "a", "b", "c", "d"};
+    foreach (string name in cacsp)
+    {
+        // Neu khong muon xuat ra trong the nao thi bo vao the <text>
+        // co the dung @: thay cho the <text>
+        @: [@name]
+    }
+}
+@{
+    int a = 20;
+    if (a > 9)
+    {
+        <p>@a > 9</p>
+    }
+}
