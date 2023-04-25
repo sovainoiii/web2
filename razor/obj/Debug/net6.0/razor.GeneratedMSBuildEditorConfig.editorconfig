@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = razor
+build_property.RootNamespace = razor
+build_property.ProjectDir = E:\CSharp\web2\razor\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\CSharp\web2\razor
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/CSharp/web2/razor/Areas/Product/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdFxQYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Areas/Product/Pages/Sanphammoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdFxQYWdlc1xTYW5waGFtbW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Areas/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Areas/User/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxQYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/Dichvu/Dichvu1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaHZ1XERpY2h2dTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/Dichvu/Dichvu2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaHZ1XERpY2h2dTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/Dichvu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaHZ1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/FirstRazor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlyc3RSYXpvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/SecondRazor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vjb25kUmF6b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/ThirdRazor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhpcmRSYXpvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CSharp/web2/razor/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-y59ttbewxe

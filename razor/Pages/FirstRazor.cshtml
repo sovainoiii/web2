@@ -1,0 +1,24 @@
+﻿@page "/trang-dau-tien.html/{solanlap}"
+@model FirstRazor
+@{
+    ViewData["Title"] = "Trang đầu tiên";
+    ViewData["myData"] = "Halooo";
+}
+<div class="text-center">
+    <h1 class="display-4">@Model.Title</h1>
+    <h2>@ViewData["myData"]</h2>
+</div>
+
+@{
+    var solanlap = this.Request.RouteValues["solanlap"];
+    var a = 1;
+    var b = 4;
+    int solap = Int32.Parse(solanlap.ToString());
+    <p>Căn bậc 2: @Math.Sqrt(b)</p>
+}
+<p>Tổng của @a và @b là @(a+b)</p>
+@for(int i=0; i < solap; i++) {
+    <p>@i</p>
+}
+
+<p>@Model.Welcome("A")</p>
